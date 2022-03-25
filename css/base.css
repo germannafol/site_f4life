@@ -1,0 +1,125 @@
+:root{
+    
+    --1-cor-prin-f4life-azul-escuro: #132235;
+    --2-cor-prin-f4life-azul-claro:#6DDAD3;
+    --3-cor-prin-f4life-branco:#FFFFFF;
+
+    --1-texto-fundo-cinza-escuro:#404040;
+    --2-texto-fundo-cinza-medio:#808080;
+    --3-texto-fundo-cinza-claro:#BFBFBF;
+    --4-texto-fundo-branco-escuro:#E6E6E6;
+
+    --1-degrade-cor-principal:#2A4B75;
+    --2-degrade-cor-principal:#4D5F75;
+    --3-degrade-cor-principal:#589CF5;
+    --4-degrade-cor-principal:#A3C7F7;
+    --5-degrade-cor-principal:#467CC2;
+
+    --font-family: 'DM Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--1-cor-prin-f4life-azul-escuro);
+    color: var(--2-texto-fundo-cinza-medio);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color:var(--4-texto-fundo-branco-escuro) ;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+image{
+    border: 0;
+}
+
+a, p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+@media (min-width: 1024px)
+{body>main{
+    min-height: 65vh;
+}}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{
+    display: block;
+}
+
+section{
+    margin: 0;
+}
+
+h2 {
+    color: rgba(0,0,0,.87);
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 21px;
+    text-align: left;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.botao{
+    text-align: center;
+    background: #5f9ea0b5;
+    display: block;
+    width: 109%;
+    max-width: 219.9px;
+    box-sizing: border-box;
+    padding: 1rem 3.2rem;
+    border: 0px solid #FFF;
+    border-radius: 10px;
+    color: #132235;
+    font-size: 1.3rem;
+    margin:  1.3rem 0;
+}
+
+.botao:hover {
+    transition: 1.5s;
+    background-color:white;
+}
+
+input, button{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+

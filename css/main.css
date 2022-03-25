@@ -1,0 +1,137 @@
+main{
+    background: #fff;
+}
+
+.main-dividir{
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bloco-main{
+    background-image: url(../img/back-fale-conosco.png);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: none;
+    margin: 0;
+    box-shadow: 0 0px 28.6px 0.5px rgb(0 0 0 / 50%);
+    height: 600px;
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.text-main{
+    margin: 51px 0px 0px 84px;
+    width: 30%;
+    background-color: #2c9195c4;
+    border-radius: 6px;
+    
+}
+
+@media (max-width: 1110px){
+    .text-main {
+        width: 25%;
+    }
+}
+
+.conteudo-main{
+    width: 50%;
+}
+
+@media (max-width: 1110px){
+    .conteudo-main {
+        width: 80%;
+    }
+}
+
+.p-main{
+    color: rgba(0,0,0,.54);
+    font-size: 1.275rem;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-fale-conosco{
+    background-color:#ffffff9e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 36px 0 0px;
+    border-radius: 10px;
+    height: 580px;
+}
+
+textarea{
+    border-radius: 5px;
+    border: #fff;
+    font-family: 'DM Sans';
+    text-transform: uppercase;
+    background-color: #ffffffeb;
+    margin: 2px;
+}
+
+input{
+    border-radius: 5px;
+    border: #fff;
+    margin: 2px;
+    width: 231px;
+    background-color: #ffffffeb;
+    height: 30px;
+}
+
+.form-email{
+    width: 233px;
+}
+
+.form-botao{
+    margin: 12px 0px 112px;
+}
+
+label{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #132235c7;
+    border-radius: 5;
+    padding: 0 4px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+strong{
+    background: var(--1-cor-prin-f4life-azul-escuro);
+    color: #fff;
+}
+
+/* Relacionado ao paragrafo add */
+#id-resposta{
+    color: #fff;
+    font-size: 24px;
+    background: #314050;
+    position: relative;
+    left: 3.39px;
+    top: -10px;
+    max-width: 168px;
+    text-align: justify;
+    padding: 0px 8px;
+    border-radius: 18px;
+}
+
+/* Relacionado a erro no preenchimento do formulário */
+.erro-formulario{
+    border:2px solid rgb(207,53,53) !important;
+} 

@@ -1,0 +1,86 @@
+.cabecalho{
+    background: var(--1-cor-prin-f4life-azul-escuro);
+    
+    width: 70%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    justify-content: space-between;
+}
+
+.div-logo{
+    display: block;
+}
+
+.cabecalho-logo{
+    max-height: 5.875rem;
+}
+
+h1{
+    height: auto;
+}
+
+@media (min-width: 768px){
+    .cabecalho-logo {
+        transform: translate(0,3px);
+    }
+}
+       
+header li a{
+    text-align: right;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    header li a {
+        white-space: normal;
+        overflow: unset;
+        text-overflow: unset;
+        max-width: none;
+        position: initial;
+        padding: 0;
+        margin: 0;
+        width: fit-content;
+    }
+}
+
+
+.ul-nav{
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    max-width: 237px;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px){
+    .ul-nav {
+        max-width: none;
+        position: relative;
+    }
+}
+
+.div-nav li{
+    border: 0;
+    display: none;
+    font-size: 14px;
+    padding: 0;
+    width: auto;
+    margin: 10px;
+    font-size: 19px;
+}
+
+@media (min-width: 768px){
+    .div-nav li {
+        display: inline-block;
+    }
+}
+

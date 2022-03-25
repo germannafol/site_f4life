@@ -1,0 +1,20 @@
+/* Color Theme Swatches */
+--1-cor-prin-f4life-azul-escuro: #132235;
+--2-cor-prin-f4life-azul-claro:#6DDAD3;
+--3-cor-prin-f4life-branco:#FFFFFF;
+
+Cores Bases
+/* Color Theme Swatches*/
+--1-texto-fundo-cinza-escuro:#404040;
+--2-texto-fundo-cinza-medio:#808080;
+--3-texto-fundo-cinza-claro:#BFBFBF;
+--4-texto-fundo-branco-escuro:#E6E6E6;
+
+Degradê
+/* Color Theme Swatches */
+--1-degrade-cor-principal:#2A4B75;
+--2-degrade-cor-principal:#4D5F75;
+--3-degrade-cor-principal:#589CF5;
+--4-degrade-cor-principal:#A3C7F7;
+--5-degrade-cor-principal:#467CC2;
+

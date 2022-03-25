@@ -1,0 +1,127 @@
+.planos {
+   padding-top: 0rem;
+}
+
+.planos--bloco{
+    position: relative;
+    width: 100%;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    right: 90px;
+    
+}
+
+#id-plano{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-right: 39px;
+}
+
+.planos--titulo {
+    color: #dee5ec;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #132235;
+    width: 902.2px;
+    padding: 10px;
+
+    margin-bottom: 1.25rem;
+}
+
+.planos--cartoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+
+    background-color:  #f8f9fa;
+
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 2rem;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.cartao--titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--azul-claro);
+}
+
+.cartao--conteudo {
+    padding: 0 15%;
+}
+
+.cartao--preco {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.cartao--texto {
+    color: var(--fonte-cinza);
+    line-height: 28px;
+}
+
+.cartao--botao {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    width: 100%;
+
+    align-self: center;
+
+    padding: .75rem 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cartao--start {
+    color: var(--4-degrade-cor-principal);
+}
+
+.cartao--ultra {
+    color: var(--3-degrade-cor-principal);
+}
+
+.cartao--mega {
+    color: var(--5-degrade-cor-principal);
+}
+
+.cartao--botao--start {
+    border-color: var(--2-cor-prin-f4life-azul-claro);
+}
+
+.cartao--botao--ultra {
+    border-color: var(--2-cor-prin-f4life-azul-claro);
+}
+
+.cartao--botao--mega {
+    border-color: var(--2-cor-prin-f4life-azul-claro);
+}
+
+@media screen and (min-width:768px) {
+    .cartao{
+        width: 460px;
+    }   
+}

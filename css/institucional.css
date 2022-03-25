@@ -1,0 +1,11 @@
+.quem-somos{
+    background-image: url(../img/quem-somos.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 25rem;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow:0 8px 10px -6px rgb(0 0 0 / 50%);
+}
